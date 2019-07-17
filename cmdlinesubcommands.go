@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("subcommands")
+	fmt.Println("-----subcommands------")
 	foocmd := flag.NewFlagSet("foo", flag.ExitOnError)
 	fooenable := foocmd.Bool("boolean", false, "this is a boolean")
 	fooname := foocmd.String("name", "John", "this is a name in foo")
