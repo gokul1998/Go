@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var num int
 	fmt.Scan(&num)
-	//fmt.Print(age)
+	fmt.Print(age)
 	res := true
 	for i := 2; i <= num/2; i++ {
 		fmt.Print(i)
